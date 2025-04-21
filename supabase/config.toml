@@ -1,0 +1,17 @@
+
+project_id = "qovokxahmfburzcvndex"
+
+[functions.google-calendar-oauth]
+verify_jwt = true
+env = [
+  "GOOGLE_CLIENT_ID",
+  "GOOGLE_CLIENT_SECRET",
+  "SUPABASE_SERVICE_ROLE_KEY",
+  "SUPABASE_URL"
+]
+
+[functions.get-google-client-id]
+verify_jwt = true
+env = [
+  "GOOGLE_CLIENT_ID"
+]
